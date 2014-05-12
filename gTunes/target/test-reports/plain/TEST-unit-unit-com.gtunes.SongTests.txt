@@ -1,0 +1,10 @@
+Testsuite: com.gtunes.SongTests
+Tests run: 1, Failures: 0, Errors: 0, Time elapsed: 0,248 sec
+------------- Standard Output ---------------
+--Output from testMinimumDuration--
+------------- ---------------- ---------------
+------------- Standard Error -----------------
+--Output from testMinimumDuration--
+------------- ---------------- ---------------
+
+Testcase: testMinimumDuration took 0,185 sec

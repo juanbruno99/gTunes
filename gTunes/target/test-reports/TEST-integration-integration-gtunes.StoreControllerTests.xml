@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="jbruno-Latitude-E6500" name="gtunes.StoreControllerTests" tests="1" time="0.561" timestamp="2014-05-12T14:52:59">
+  <properties />
+  <testcase classname="gtunes.StoreControllerTests" name="testSomething" time="0.361" />
+  <system-out><![CDATA[--Output from testSomething--
+]]></system-out>
+  <system-err><![CDATA[--Output from testSomething--
+]]></system-err>
+</testsuite>

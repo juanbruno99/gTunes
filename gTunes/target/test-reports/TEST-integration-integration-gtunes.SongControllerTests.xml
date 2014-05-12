@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="5" hostname="jbruno-Latitude-E6500" name="gtunes.SongControllerTests" tests="8" time="2.158" timestamp="2014-05-12T14:52:59">
+  <properties />
+  <testcase classname="gtunes.SongControllerTests" name="testIndex" time="0.379" />
+  <testcase classname="gtunes.SongControllerTests" name="testList" time="0.29" />
+  <testcase classname="gtunes.SongControllerTests" name="testCreate" time="0.092" />
+  <testcase classname="gtunes.SongControllerTests" name="testSave" time="0.119">
+    <failure message="Assertion failed: &#xa;&#xa;assert response.redirectedUrl == &apos;/song/show/1&apos;&#xa;       |        |             |&#xa;       |        null          false&#xa;       org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@154eaf3&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert response.redirectedUrl == &apos;/song/show/1&apos;
+       |        |             |
+       |        null          false
+       org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@154eaf3
+
+	at gtunes.SongControllerTests.testSave(SongControllerTests.groovy:52)
+</failure>
+  </testcase>
+  <testcase classname="gtunes.SongControllerTests" name="testShow" time="0.142">
+    <failure message="Assertion failed: &#xa;&#xa;assert song.save() != null&#xa;       |    |      |&#xa;       |    null   false&#xa;       com.gtunes.Song : (unsaved)&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert song.save() != null
+       |    |      |
+       |    null   false
+       com.gtunes.Song : (unsaved)
+
+	at gtunes.SongControllerTests.testShow(SongControllerTests.groovy:66)
+</failure>
+  </testcase>
+  <testcase classname="gtunes.SongControllerTests" name="testEdit" time="0.092">
+    <failure message="Assertion failed: &#xa;&#xa;assert song.save() != null&#xa;       |    |      |&#xa;       |    null   false&#xa;       com.gtunes.Song : (unsaved)&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert song.save() != null
+       |    |      |
+       |    null   false
+       com.gtunes.Song : (unsaved)
+
+	at gtunes.SongControllerTests.testEdit(SongControllerTests.groovy:84)
+</failure>
+  </testcase>
+  <testcase classname="gtunes.SongControllerTests" name="testUpdate" time="0.102">
+    <failure message="Assertion failed: &#xa;&#xa;assert song.save() != null&#xa;       |    |      |&#xa;       |    null   false&#xa;       com.gtunes.Song : (unsaved)&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert song.save() != null
+       |    |      |
+       |    null   false
+       com.gtunes.Song : (unsaved)
+
+	at gtunes.SongControllerTests.testUpdate(SongControllerTests.groovy:104)
+</failure>
+  </testcase>
+  <testcase classname="gtunes.SongControllerTests" name="testDelete" time="0.933">
+    <failure message="Assertion failed: &#xa;&#xa;assert song.save() != null&#xa;       |    |      |&#xa;       |    null   false&#xa;       com.gtunes.Song : (unsaved)&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert song.save() != null
+       |    |      |
+       |    null   false
+       com.gtunes.Song : (unsaved)
+
+	at gtunes.SongControllerTests.testDelete(SongControllerTests.groovy:148)
+</failure>
+  </testcase>
+  <system-out><![CDATA[--Output from testIndex--
+--Output from testList--
+--Output from testCreate--
+--Output from testSave--
+--Output from testShow--
+--Output from testEdit--
+--Output from testUpdate--
+--Output from testDelete--
+]]></system-out>
+  <system-err><![CDATA[--Output from testIndex--
+--Output from testList--
+--Output from testCreate--
+--Output from testSave--
+--Output from testShow--
+--Output from testEdit--
+--Output from testUpdate--
+--Output from testDelete--
+]]></system-err>
+</testsuite>

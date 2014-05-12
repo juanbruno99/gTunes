@@ -1,0 +1,116 @@
+Testsuite: gtunes.SongControllerTests
+Tests run: 8, Failures: 5, Errors: 0, Time elapsed: 2,158 sec
+------------- Standard Output ---------------
+--Output from testIndex--
+--Output from testList--
+--Output from testCreate--
+--Output from testSave--
+--Output from testShow--
+--Output from testEdit--
+--Output from testUpdate--
+--Output from testDelete--
+------------- ---------------- ---------------
+------------- Standard Error -----------------
+--Output from testIndex--
+--Output from testList--
+--Output from testCreate--
+--Output from testSave--
+--Output from testShow--
+--Output from testEdit--
+--Output from testUpdate--
+--Output from testDelete--
+------------- ---------------- ---------------
+
+Testcase: testIndex took 0,379 sec
+Testcase: testList took 0,29 sec
+Testcase: testCreate took 0,092 sec
+Testcase: testSave took 0,119 sec
+	FAILED
+Assertion failed: 
+
+assert response.redirectedUrl == '/song/show/1'
+       |        |             |
+       |        null          false
+       org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@154eaf3
+
+junit.framework.AssertionFailedError: Assertion failed: 
+
+assert response.redirectedUrl == '/song/show/1'
+       |        |             |
+       |        null          false
+       org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@154eaf3
+
+	at gtunes.SongControllerTests.testSave(SongControllerTests.groovy:52)
+
+Testcase: testShow took 0,142 sec
+	FAILED
+Assertion failed: 
+
+assert song.save() != null
+       |    |      |
+       |    null   false
+       com.gtunes.Song : (unsaved)
+
+junit.framework.AssertionFailedError: Assertion failed: 
+
+assert song.save() != null
+       |    |      |
+       |    null   false
+       com.gtunes.Song : (unsaved)
+
+	at gtunes.SongControllerTests.testShow(SongControllerTests.groovy:66)
+
+Testcase: testEdit took 0,092 sec
+	FAILED
+Assertion failed: 
+
+assert song.save() != null
+       |    |      |
+       |    null   false
+       com.gtunes.Song : (unsaved)
+
+junit.framework.AssertionFailedError: Assertion failed: 
+
+assert song.save() != null
+       |    |      |
+       |    null   false
+       com.gtunes.Song : (unsaved)
+
+	at gtunes.SongControllerTests.testEdit(SongControllerTests.groovy:84)
+
+Testcase: testUpdate took 0,102 sec
+	FAILED
+Assertion failed: 
+
+assert song.save() != null
+       |    |      |
+       |    null   false
+       com.gtunes.Song : (unsaved)
+
+junit.framework.AssertionFailedError: Assertion failed: 
+
+assert song.save() != null
+       |    |      |
+       |    null   false
+       com.gtunes.Song : (unsaved)
+
+	at gtunes.SongControllerTests.testUpdate(SongControllerTests.groovy:104)
+
+Testcase: testDelete took 0,933 sec
+	FAILED
+Assertion failed: 
+
+assert song.save() != null
+       |    |      |
+       |    null   false
+       com.gtunes.Song : (unsaved)
+
+junit.framework.AssertionFailedError: Assertion failed: 
+
+assert song.save() != null
+       |    |      |
+       |    null   false
+       com.gtunes.Song : (unsaved)
+
+	at gtunes.SongControllerTests.testDelete(SongControllerTests.groovy:148)
+
